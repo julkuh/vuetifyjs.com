@@ -89,6 +89,10 @@
         {
           title: 'русский',
           locale: 'ru'
+        },
+        {
+          title: 'German',
+          locale: 'de'
         }
       ]
     }),
