@@ -1,9 +1,9 @@
 export default {
   header: 'Display',
-  headerText: 'The display helpers allow you to control the display of content. This includes being conditionally visible based upon the current viewport, or the actual element display type.',
+  headerText: 'Mit Hilfe den Display Helfern kann die Anzeige von Inhalten gesteuert werden. Dazu lassen sich Elemente unter bestimmten Bedingungen wie zum Beispiel Viewportgröße oder der Element Display Typ benutzen.',
   toc: [
     {
-      text: 'Introduction',
+      text: 'Einführung',
       href: 'introduction'
     },
     {
@@ -15,13 +15,13 @@ export default {
       href: 'display'
     },
     {
-      text: 'Examples',
+      text: 'Beispiele',
       href: 'examples'
     }
   ],
   visibilityHeader: 'Visibility',
-  visibilityText: 'Conditionally display an element based upon the current **viewport**. These classes can be applied using the following format `hidden-{breakpoint}-{condition}`',
-  breakpointText: 'The _breakpoint_ sets the viewport size:',
+  visibilityText: 'Bedingtes Anzeigen eines Elements basierend auf dem aktuellen **Viewport**. Diese Klassen können mit folgendem Format angewendet werden: `hidden-{breakpoint}-{condition}``.`',
+  breakpointText: 'Der _breakpoint_ legt die Größe des Viewports fest:',
   breakpoints: [
     '`xs` - extra small devices',
     '`sm` - small devices',
@@ -29,19 +29,19 @@ export default {
     '`lg` - large devices',
     '`xl` - extra large',
   ],
-  conditionText: 'The _condition_ applies the class base on:',
+  conditionText: 'Die __condition__ wendet die Klasse konditional an:',
   conditions: [
-    '`only` - hide the element only on `xs` through `xl` breakpoints',
-    '`and-down` - hide the element on the specified breakpoint and down `sm` through `lg` breakpoints',
-    '`and-up` - hide the element on the specified breakpoint and up `sm` through `lg` breakpoints'
+    '`only` - versteckt dass Element nur bei `xs` durch `xl` Breakpoints.',
+    '`and-down` - versteckt das Element ab dem angegebenen Breakpoint und darunter. Gültig zwischen `sm` und `lg` Breakpoints',
+    '`and-up` - versteckt das Element ab dem angegebenen Breakpoint und darüber. Gültig zwischen `sm` und `lg` Breakpoints'
   ],
   displayHeader: 'Display',
-  displayText: 'Specify the elements `display` property. These classes can be applied using the following format `d-{display}`.',
+  displayText: 'Legt die `display` Eigenschaft des elements fest. Dies kann festgelegt werden, indem das Format `d-{display}` verndet wird.',
   displays: [
-    '`d-inline-flex` - sets the element display property to `inline-flex`',
-    '`d-flex` - sets the element display property to `flex`',
-    '`d-inline-block` - sets the element display property to `inline-block`',
-    '`d-block` - sets the element display property to `block`',
-    '`d-inline` - sets the element display property to `inline`'
+    '`d-inline-flex` - setzt die Display Eigenschaft des Elements auf `inline-flex`',
+    '`d-flex` - setzt die Display Eigenschaft des Elements auf `flex`',
+    '`d-inline-block` - setzt die Display Eigenschaft des Elements auf `inline-block`',
+    '`d-block` - setzt die Display Eigenschaft des Elements auf `block`',
+    '`d-inline` - setzt die Display Eigenschaft des Elements auf `inline`'
   ]
 }

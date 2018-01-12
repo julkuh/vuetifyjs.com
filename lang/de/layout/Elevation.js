@@ -1,9 +1,9 @@
 export default {
   header: 'Elevation',
-  headerText: 'The elevation helpers allow you to control relative depth, or distance, between two surfaces along the **z-axis**. There is a total of 25 elevation levels. You can set an element\'s elevation by using the class `elevation-{n}`, where `n` is a integer between 0-24 corresponding to the desired elevation.',
+  headerText: 'Mit den Elevation Helferklassen wird die relative Tiefe oder den Abstand zwischen zwei Flächen entlang der **z-Achse** gesteuert. Es gibt insgesamt 25 Höhenstufen. Die Elementhöhe wird mit der Klasse `elevation-{n}` definiert, wobei `n` eine ganze Zahl zwischen 0-24 ist, die der gewünschten Elementhöhe entspricht.',
   toc: [
     {
-      text: 'Introduction',
+      text: 'Einführung',
       href: 'introduction'
     },
     {

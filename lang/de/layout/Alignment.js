@@ -1,13 +1,13 @@
 export default {
-  header: 'Text alignment',
-  headerText: 'Layouts can change when screen resolutions change. The alignment classes help you position your text based on viewport size.',
+  header: 'Text Ausrichtung',
+  headerText: 'Layouts können sich ändern, wenn sich die Bildschirmauflösungen ändert. Die Alignment-Klassen helfen dir, deinen Text anhand der Viewportgröße zu positionieren.',
   toc: [
     {
-      text: 'Introduction',
+      text: 'Einführung',
       href: 'introduction'
     },
     {
-      text: 'Examples',
+      text: 'Beispiele',
       href: 'examples'
     }
   ]

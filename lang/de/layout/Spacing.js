@@ -1,48 +1,48 @@
 export default {
   header: 'Spacing',
-  headerText: 'Update your layout without creating new classes. Spacing helpers are useful for modifying the padding and margin of an element.',
+  headerText: 'Aktualisiere dein Layout, ohne neue CSS Regeln zu erstellen. Spacing Helfer sind nützlich, um Padding und Margin eines Elements zu verändern.',
   toc: [
     {
-      text: 'Introduction',
+      text: 'Einführung',
       href: 'introduction'
     },
     {
-      text: 'How it works',
+      text: 'Wie es funktioniert',
       href: 'how-it-works'
     },
     {
-      text: 'Examples',
+      text: 'Beispiele',
       href: 'examples'
     },
     {
-      text: 'Horizontal centering',
+      text: 'Horizontale Zentrierung',
       href: 'horizontal-centering'
     }
   ],
-  howText: 'Apply **margin** or **padding** to an element ranging from _0 to 5_. Each size increment was designed to align with common Material Design spacing. These classes can be applied using the following format `{property}{direction}-{size}`.',
-  propertyText: 'The _property_ applies the type of spacing:',
+  howText: 'Wende **margin** oder **padding** auf ein Element im Bereich von _0 bis 5_ an. Jede Größenabstufung wurde so konzipiert, dass sie mit dem üblichen Material Design-Abständen übereinstimmt. Diese Klassen können unter Verwendung des folgenden Formats `{property}{direction}-{size}` angewendet werden.',
+  propertyText: 'Die _property_ legt die Art des Abstands fest:',
   properties: [
-    '`m` - applies `margin`',
-    '`p` - applies `padding`'
+    '`m` - wendet `margin` an',
+    '`p` - wendet `padding` an'
   ],
-  directionText: 'The _direction_ designates the side the property applies to:',
+  directionText: 'Die _Richtung_ bezeichnet die Seite bzw. Seiten, auf die sich die Eigenschaft bezieht:',
   directions: [
-    '`t` - applies the property for `margin-top` or `padding-top`',
-    '`b` - applies the property for `margin-bottom` or `padding-bottom`',
-    '`l` - applies the property for `margin-left` or `padding-left`',
-    '`r` - applies the property for `margin-right` or `padding-right`',
-    '`x` - applies the property for both `*-left` and `*-right`',
-    '`y` - applies the property for both `*-top` and `*-bottom`'
+    '`t` - wendet die Eigenschaft für `margin-top` oder `padding-top` an',
+    '`b` - wendet die Eigenschaft für `margin-bottom` oder `padding-bottom` an',
+    '`l` - wendet die Eigenschaft für `margin-left` oder `padding-left` an',
+    '`r` - wendet die Eigenschaft für `margin-right` oder `padding-right` an',
+    '`x` - wendet die Eigenschaft für `*-left` und `*-right` an',
+    '`y` - wendet die Eigenschaft für `*-top` und `*-bottom` an',
   ],
-  sizeText: 'The _size_ controls the increment of the property:',
+  sizeText: 'Die _size_ steuert die Stärke der Eigenschaft:',
   sizes: [
-    '`0` - removes the property for `margin` or `padding` by setting it to `0`',
-    '`1` - sets the `margin` or `padding` property to `$spacer * .25`',
-    '`2` - sets the `margin` or `padding` property to `$spacer * .5`',
-    '`3` - sets the `margin` or `padding` property to `$spacer`',
-    '`4` - sets the `margin` or `padding` property to `$spacer * 1.5`',
-    '`5` - sets the `margin` or `padding` property to `$spacer * 3`',
+    '`0` - entfernt die Eigenschaft für `margin` oder `padding` durch Setzen auf `0`.',
+    '`1` - setzt die Eigenschaft `margin` oder `padding` auf `$spacer * .25`',
+    '`2` - setzt die Eigenschaft `margin` oder `padding` auf `$spacer * .5`',
+    '`3` - setzt die Eigenschaft `margin` oder `padding` auf `$spacer',
+    '`4` - setzt die Eigenschaft `margin` oder `padding` auf `$spacer * 1.5`',
+    '`5` - setzt die Eigenschaft `margin` oder `padding` auf `$spacer * 3`',
   ],
-  horizontalHeader: 'Horizontal centering',
-  horizontalText: 'For block elements with a designated width, you can apply `.mx-auto` to horizontally center the content.'
+  horizontalHeader: 'Horizontale Zentrierung',
+  horizontalText: 'Bei Blockelementen mit einer bestimmten Breite kann mittels`.mx-auto` der Inhalt horizontal zentriert werden.'
 }

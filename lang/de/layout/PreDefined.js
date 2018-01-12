@@ -1,23 +1,23 @@
 export default {
   header: 'Layouts',
-  headerText: `The layout system is the heart of every application. Below are the officially supported examples, ranging from desktop to mobile applications. `,
-  markupHeader: 'Default application markup',
-  markupText: 'This is an example of the default application markup for Vuetify. You can place your layout elements anywhere, as long as you apply the **app** property. The key component in all of this is the `v-content` element. This will be dynamically sized depending upon the structure of your designated **app** components. This allows you to create extremely customized solutions.',
-  appHeader: 'All about _app_',
-  appText: 'In Vuetify, the `v-app` component and the **app** help bootstrap your application with the proper sizing around `v-content`. This allows you to create truly unique interfaces without the hassle of managing your layout. The `v-app` component is **REQUIRED** for all applications. This is the mount point for many of Vuetify\'s components and functionality.',
-  alert1: 'In order for your application to work properly, you **must** wrap it in a `v-app` component. This component is required for determining grid breakpoints for the layout. This can exist **anywhere** inside the body, but must be the parent of **ALL** Vuetify components.',
-  alert2: 'Applying the **app** prop automatically applies position: **fixed** to the layout element. If your application calls for an _absolute_ element, you can overwrite this functionality using the **absolute** prop.',
+  headerText: `Das Layout-System ist das Herzstück jeder Anwendung. Nachfolgend findest du offiziell unterstützten Beispiele, die von Desktop- bis hin zu mobilen Anwendungen reichen. `,
+  markupHeader: 'Standard App Markup',
+  markupText: 'Dies ist ein Beispiel für das Standard-Anwendungs-Markup von Vuetify. Du kannst deine Layoutelemente an beliebiger Stelle platzieren, solange Sie die Eigenschaft **app** besitzen. Die Schlüsselkomponente in all dem ist das `v-content` Element. Diese wird dynamisch nach der Struktur der von dir definierten **app** Komponenten angepasst. So kannst du extrem individuelle Lösungen umsetzen.',
+  appHeader: 'Alles über _App_',
+  appText: 'In Vuetify helfen die `v-app`-Komponente und die **app**-Hilfe beim Bootstrap Ihrer Anwendung mit der richtigen Größenanpassung um `v-content` herum. Auf diese Weise können wirklich einzigartige Oberflächen erstellt werden, ohne dass du dich um die Verwaltung deines Layouts kümmern musst. Die `v-app` Komponente ist für alle Anwendungen **ERFORDERLICH**. Dies ist der Ausgangspunkt für viele Komponenten und Funktionen von Vuetify. ',
+  alert1: 'Damit deine Anwendung einwandfrei funktioniert, musst du sie in eine `v-app`-Komponente einschließen. Diese Komponente wird benötigt, um Grid-Breakpoints für das Layout zu ermitteln. Dies kann **irgendwo** im body existieren, muss aber das Eltern-Element von **ALLEN ** Vuetify-Komponenten sein.',
+  alert2: 'Durch Anwenden der **app**-Eigenschaft wird die Position: **fixed** automatisch auf das Layout-Element angewendet. Wenn deine Anwendung ein _absolutes_ Element benötigt, kannst du diese Funktionalität mit Hilfe der **absoluten** Eigenschaft überschreiben.',
   toc: [
     {
       text: 'Layouts',
       href: 'introduction'
     },
     {
-      text: 'Default app markup',
+      text: 'Standard App Markup',
       href: 'default-markup'
     },
     {
-      text: 'All about app',
+      text: 'Alles über App',
       href: 'all-about-app'
     }
   ]
