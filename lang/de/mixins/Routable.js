@@ -1,15 +1,15 @@
 export default {
   props: {
-    activeClass: `Class bound when component is active. **warning** Depending upon the component, this could cause side effects. If you need to add a custom class on top of a default, just do <code>active-class="default-class your-class"</code>`,
-    append: `Vue Router router-link prop`,
-    disabled: 'Route item is disabled',
-    exact: 'Exactly match the link. Without this, "/" will match every route',
-    exactActiveClass: 'Vue Router router-link prop',
-    href: 'Will designate the component tag to `<a>`',
-    nuxt: 'Specifies the link is a nuxt-link',
-    replace: 'Vue Router router-link prop',
-    to: 'Will designate the component tag to `<router-link>`',
-    tag: 'Specify a custom tag to use on the component',
-    target: 'Specify the target attribute, only works with anchor tag.'
+    activeClass: `Klasse wird gesetzt wenn die Komponente aktiv ist. **Warnung** Abängig von der Komponente kann das Quereffekte erzeugen. Wenn lediglich eine zusätzliche Klasse hinzugefügt werden soll, verwende einfach <code>active-class="default-class your-class"</code>`,
+    append: `Vue Router router-link Eigenschaft`,
+    disabled: 'Route Element ist deaktiviert',
+    exact: 'Link muss genau gleich sein. Ohne dies, wird "/" zu jeder Route passen',
+    exactActiveClass: 'Vue Router router-link Eigenschaft',
+    href: 'Zeichnet den Komponenten Tag als `<a>` aus',
+    nuxt: 'Gibt an, dass es sich bei dem Link um einen nuxt-link handelt',
+    replace: 'Vue Router router-link Eigenschaft',
+    to: 'Zeichnet den Komponenten Tag als `<router-link>` aus',
+    tag: 'Gib ein benutzerdefiniertes Tag an, das an der Komponente verwendet werden soll.',
+    target: 'Legt das target Attribut fest. Funktioniert nur bei Anchor-Tags.'
   }
 }

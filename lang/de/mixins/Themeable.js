@@ -1,6 +1,6 @@
 export default {
   props: {
-    dark: 'Applies the dark theme variant',
-    light: 'Applies the light theme variant'
+    dark: 'Wendet die Theme Variante dark an',
+    light: 'Wendet die Theme Variante light an'
   }
 }

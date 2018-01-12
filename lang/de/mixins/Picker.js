@@ -1,11 +1,11 @@
 export default {
   props: {
-    "actions": "Use this when using actions inside the picker",
-    "autosave": "Automatically save the selected value. This updates the internal previous value so if cancel is clicked, it will not revert the user changes",
-    "headerColor": "Defines the header color. If not specified it will use the color defined by <code>color</code> prop or the default picker color",
-    "landscape": "Orients picker horizontal",
-    "noTitle": "Hide the picker title",
-    "scrollable": "Allows the use of the mousewheel in the picker",
-    "value": "Picker value"
+    "actions": "Verwende dies, wenn Aktionen innerhalb des Pickers ausgeführt werden sollen.",
+    "autosave": "Automatisches Speichern des gewählten Wertes. Dadurch wird der interne vorherige Wert aktualisiert. Wenn also auf Abbrechen geklickt wird, werden die Benutzeränderungen nicht rückgängig gemacht.",
+    "headerColor": "Legt die Farbe der Kopfzeile fest. Wenn nicht angegeben, wird die Farbe verwendet, die durch die <code>color</code> Eigenschaft oder die Standardfarbe des Pickers definiert ist.",
+    "landscape": "Richtet den Picker horizontal aus",
+    "noTitle": "Ausblenden des Picker Titels",
+    "scrollable": "Ermöglicht die Verwendung des Mausrads im Picker",
+    "value": "Picker Wert"
   }
 }

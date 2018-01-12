@@ -1,5 +1,5 @@
 export default {
   props: {
-    lazy: 'Conditionally renders content on mounted. Will only render content if activated'
+    lazy: 'Bedingtes Rendern von Inhalten wenn gemountet. Rendert nur Inhalte, wenn aktiviert'
   }
 }

@@ -1,8 +1,8 @@
 export default {
   props: {
-    error: 'Puts the input in a manual error state',
-    errorMessages: 'Puts the input in an error state and passes through custom error messsages. Will be combined with any validations that occur from the **rules** prop. This field will not trigger validation',
-    rules: 'Array of functions that return either True or a String with an error message',
-    validateOnBlur: 'Delays validation until blur event'
+    error: 'Versetzt das Eingabeelement manuell in den Fehler-Zustand',
+    errorMessages: 'Versetzt das Eingabeelement in einen Fehler-Zustand und reicht eine Fehlermeldung durch. Wird mit allen Validierungen kombiniert, die aus der **rules**-Eigenschaft stammen. Das Eingabefeld wird keine Validation ausführen.',
+    rules: 'Array von Funktionen, die entweder True oder einen String mit einer Fehlermeldung zurückgeben.',
+    validateOnBlur: 'Verzögert die Validierung bis zum Blur-Event'
   }
 }

@@ -1,7 +1,7 @@
 export default {
   props: {
-    solo: 'Changes the style of the input',
-    soloInverted: 'Reduces element opacity until focused',
-    flat: 'Removes elevation (shadow) added to element when using the **solo** or **solo-inverted** props'
+    solo: 'Ändert den Style der Eingabe',
+    soloInverted: 'Reduziert die Transparenz der Elemente bis zur Fokussierung',
+    flat: 'Entfernt die Elevation (Schatten) welche dem element durch die Eigenschaften **solo** und **solo-inverted** hinzugefügt wird.'
   }
 }

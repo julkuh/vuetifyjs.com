@@ -1,6 +1,6 @@
 export default {
   props: {
-    attach: 'Specifies which DOM element that this component should detach to. Use either a CSS selector string or an object reference to the element.',
-    contentClass: 'Applies a custom class to the detached element. This is useful because the content is moved to the end of the app and is not targettable by classes passed directly on the component.'
+    attach: 'Gibt an, zu welchem DOM-Element diese Komponente sich lösen soll. Verwende entweder einen CSS-Selektor-String oder eine Objektreferenz auf das Element.',
+    contentClass: 'Wendet eine benutzerdefinierte Klasse auf das gelöste Element an. Dies ist nützlich, da der Inhalt an das Ende der App verschoben wird und nicht von Klassen, die direkt an die Komponente übergeben werden, angesprochen werden kann.'
   }
 }

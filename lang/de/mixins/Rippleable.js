@@ -1,5 +1,5 @@
 export default {
   props: {
-    ripple: 'Applies the `v-ripple` directive'
+    ripple: 'Fügt die `v-ripple` directive hinzu'
   }
 }

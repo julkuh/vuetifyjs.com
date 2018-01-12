@@ -1,30 +1,30 @@
 export default {
-  header: 'Free and Premium themes',
-  headerText: 'Vuetify offers Free and Premium pre-made themes designed to get you started in a flash. Free themes are available to install through vue-cli or you can simply download the source.',
-  free: 'FREE',
+  header: 'Kostenlose und Premium Themes',
+  headerText: 'Vuetify bietet kostenlose und Premium Themes, mit denen Sie blitzschnell loslegen können. Kostenlose Themes können über das vue-cli installiert werden oder es kann der  Quellcode heruntergeladen werden.',
+  free: 'KOSTENLOS',
   demo: 'Demo',
-  comingSoon: 'Coming soon',
-  sourceCode: 'Source Code',
+  comingSoon: 'Demnächst erhältlich',
+  sourceCode: 'Quell Code',
   templates: [
     {
       screenshot: '/static/doc-images/starter/vuetify-premium.jpg',
       title: 'Startup',
       tag: 'PREMIUM',
-      description: 'Showcase your Company or personal portfolio with this beautifully hand-crafted Material design template.',
+      description: 'Gestalte deine Unternehmens-Präsentation oder persönliches Portfolio mit dieser wunderschönen, handgefertigten Designvorlage für Material.',
       price: '25$',
       demoUrl: ''
     },
     {
       screenshot: '/static/doc-images/starter/vuetify-parallax-starter.png',
       title: 'Parallax',
-      description:'This beautiful single page parallax is a great home page for any application.',
+      description:'Diese wunderschöne Single-Page Paralax Homepage eignet sich für fast jeden Anwendungsfall.',
       sourceUrl: 'vuetifyjs/parallax-starter',
       demoUrl: '/themes/parallax-starter'
     },
     {
       screenshot: '/static/doc-images/starter/vuetify-blog-starter.png',
       title: 'Blog',
-      description:'A simple template that features a clean interface for creating a blog or blog-like application.',
+      description:'Eine einfache Vorlage, die eine klare Oberfläche für die Erstellung eines Blogs oder einer blogähnlichen Anwendung bietet.',
       sourceUrl: 'vuetifyjs/blog-starter',
       demoUrl: '/themes/blog-starter'
     }

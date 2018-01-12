@@ -1,7 +1,7 @@
 export default {
   props: {
-    mode: 'Sets the transition mode (does not apply to transition-group)',
-    origin: 'Sets the transition origin',
-    transition: 'Sets the component transition. Can be one of the built in transitions or your own.'
+    mode: 'Legt den Transition Modus fest (wirkt nicht bei transition-group)',
+    origin: 'Legt den Transition Origin fest',
+    transition: 'Legt die Komponenten Transition fest. Dies kann eine der vorgefertigten Transitionen oder eine eigene sein.'
   }
 }
